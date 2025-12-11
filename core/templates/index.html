@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
+{% load static %}
 <head>
   <!-- Meta Tags -->
   <meta charset="utf-8">
@@ -9,14 +10,15 @@
   <meta name="author" content="Laralink">
   <!-- Site Title -->
   <title>E-commerce</title>
-  <link rel="stylesheet" href="../assets/css/plugins/fontawesome.min.css">
-  <link rel="stylesheet" href="../assets/css/plugins/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/css/plugins/lightgallery.min.css">
-  <link rel="stylesheet" href="../assets/css/plugins/slick.css">
-  <link rel="stylesheet" href="../assets/css/plugins/animate.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/plugins/fontawesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/plugins/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/plugins/lightgallery.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/plugins/slick.css' %}">
+  <link rel="stylesheet" href="{% static 'css/plugins/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <!-- Theme Style -->
-  <link rel="stylesheet" href="../assets/css/theme_9.css">
+  <link rel="stylesheet" href="{% static 'css/theme_9.css' %}">
 </head>
 
 <body>
@@ -24,7 +26,7 @@
   <div class="cs-preloader cs-accent_color_2 cs-white_bg">
     <div class="cs-preloader_bg cs-center cs-accent_7_bg_2">
       <div class="cs-preloader_in cs-accent_15_border_2">
-        <img src="../assets/img/e-commerce/logo_mini.svg" alt="Logo">
+        <img src="{% static 'img/e-commerce/logo_mini.svg' %}" alt="Logo">
       </div>
     </div>
   </div>
@@ -35,7 +37,7 @@
       <div class="container">
         <div class="cs-top_header_in">
           <div class="cs-top_header_left">
-            <a class="cs-site_branding" href="index.html"><img src="../assets/img/e-commerce/logo.svg" alt=""></a>
+            <a class="cs-site_branding" href="index.html"><img src="../{% static 'img/e-commerce/logo.svg" alt=""></a>' %}
           </div>
           <div class="cs-top_header_center">
             <div class="cs-search_1_wrap">
@@ -218,7 +220,7 @@
               </div>
             </div>
             <div class="cs-hero_img">
-              <img src="../assets/img/e-commerce/hero_lg_thumb_1.png" alt="">
+              <img src="../{% static 'img/e-commerce/hero_lg_thumb_1.png" alt="">' %}
             </div>
           </div>
           <div class="cs-hero cs-style9 cs-center">
@@ -233,7 +235,7 @@
               </div>
             </div>
             <div class="cs-hero_img">
-              <img src="../assets/img/e-commerce/hero_lg_thumb_2.png" alt="">
+              <img src="../{% static 'img/e-commerce/hero_lg_thumb_2.png" alt="">' %}
             </div>
           </div>
           <div class="cs-hero cs-style9 cs-center">
@@ -248,7 +250,7 @@
               </div>
             </div>
             <div class="cs-hero_img">
-              <img src="../assets/img/e-commerce/hero_lg_thumb_3.png" alt="">
+              <img src="../{% static 'img/e-commerce/hero_lg_thumb_3.png" alt="">' %}
             </div>
           </div>
           <div class="cs-hero cs-style9 cs-center">
@@ -263,19 +265,19 @@
               </div>
             </div>
             <div class="cs-hero_img">
-              <img src="../assets/img/e-commerce/hero_lg_thumb_4.png" alt="">
+              <img src="../{% static 'img/e-commerce/hero_lg_thumb_4.png" alt="">' %}
             </div>
           </div>
         </div>
         <div class="cs-slider_nav">
           <div class="cs-slider_mini_thumb cs-center cs-accent_40_border_2_hover"><img
-              src="../assets/img/e-commerce/hero_sm_thumb_3.png" alt="Thumb"></div>
+              src="../{% static 'img/e-commerce/hero_sm_thumb_3.png" alt="Thumb"></div>' %}
           <div class="cs-slider_mini_thumb cs-center cs-accent_40_border_2_hover"><img
-              src="../assets/img/e-commerce/hero_sm_thumb_1.png" alt="Thumb"></div>
+              src="../{% static 'img/e-commerce/hero_sm_thumb_1.png" alt="Thumb"></div>' %}
           <div class="cs-slider_mini_thumb cs-center cs-accent_40_border_2_hover"><img
-              src="../assets/img/e-commerce/hero_sm_thumb_2.png" alt="Thumb"></div>
+              src="../{% static 'img/e-commerce/hero_sm_thumb_2.png" alt="Thumb"></div>' %}
           <div class="cs-slider_mini_thumb cs-center cs-accent_40_border_2_hover"><img
-              src="../assets/img/e-commerce/hero_sm_thumb_4.png" alt="Thumb"></div>
+              src="../{% static 'img/e-commerce/hero_sm_thumb_4.png" alt="Thumb"></div>' %}
         </div>
       </div>
     </div>
@@ -299,7 +301,7 @@
         <div class="cs-slider_wrapper">
           <div class="cs-slide">
             <a href="shop-left-sidebar.html" class="cs-product cs-style4">
-              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../assets/img/e-commerce/product1.png"
+              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../{% static 'img/e-commerce/product1.png"' %}
                   alt=""></div>
               <div class="cs-product_info">
                 <h2 class="cs-product_title cs-semi_bold cs-transition_3">Watch</h2>
@@ -310,7 +312,7 @@
           </div><!-- .cs-slide -->
           <div class="cs-slide">
             <a href="shop-left-sidebar.html" class="cs-product cs-style4">
-              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../assets/img/e-commerce/product2.png"
+              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../{% static 'img/e-commerce/product2.png"' %}
                   alt=""></div>
               <div class="cs-product_info">
                 <h2 class="cs-product_title cs-semi_bold cs-transition_3">Headset</h2>
@@ -321,7 +323,7 @@
           </div><!-- .cs-slide -->
           <div class="cs-slide">
             <a href="shop-left-sidebar.html" class="cs-product cs-style4">
-              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../assets/img/e-commerce/product3.png"
+              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../{% static 'img/e-commerce/product3.png"' %}
                   alt=""></div>
               <div class="cs-product_info">
                 <h2 class="cs-product_title cs-semi_bold cs-transition_3">Bags</h2>
@@ -332,7 +334,7 @@
           </div><!-- .cs-slide -->
           <div class="cs-slide">
             <a href="shop-left-sidebar.html" class="cs-product cs-style4">
-              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../assets/img/e-commerce/product1.png"
+              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../{% static 'img/e-commerce/product1.png"' %}
                   alt=""></div>
               <div class="cs-product_info">
                 <h2 class="cs-product_title cs-semi_bold cs-transition_3">Watch</h2>
@@ -343,7 +345,7 @@
           </div><!-- .cs-slide -->
           <div class="cs-slide">
             <a href="shop-left-sidebar.html" class="cs-product cs-style4">
-              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../assets/img/e-commerce/product2.png"
+              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../{% static 'img/e-commerce/product2.png"' %}
                   alt=""></div>
               <div class="cs-product_info">
                 <h2 class="cs-product_title cs-semi_bold cs-transition_3">Headset</h2>
@@ -354,7 +356,7 @@
           </div><!-- .cs-slide -->
           <div class="cs-slide">
             <a href="shop-left-sidebar.html" class="cs-product cs-style4">
-              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../assets/img/e-commerce/product3.png"
+              <div class="cs-product_img cs-center cs-accent_10_bg_2"><img src="../{% static 'img/e-commerce/product3.png"' %}
                   alt=""></div>
               <div class="cs-product_info">
                 <h2 class="cs-product_title cs-semi_bold cs-transition_3">Bags</h2>
@@ -411,7 +413,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product6.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product6.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -438,7 +440,7 @@
             <span class="cs-product_badge cs-accent_bg cs-white text-uppercase cs-medium">Sale</span>
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product4.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product4.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -464,7 +466,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product7.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product7.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -490,7 +492,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product5.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product5.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -516,7 +518,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product8.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product8.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -542,7 +544,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product9.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product9.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -568,7 +570,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product10.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product10.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -595,7 +597,7 @@
             <span class="cs-product_badge cs-accent_bg_2 cs-white text-uppercase cs-medium">New</span>
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product11.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product11.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -627,7 +629,7 @@
   <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
     <div class="cs-product_group_1">
       <div class="cs-product cs-style2">
-        <div class="cs-product_bg cs-bg" data-src="../assets/img/e-commerce/feature_product1.png"></div>
+        <div class="cs-product_bg cs-bg" data-src="../{% static 'img/e-commerce/feature_product1.png"></div>' %}
         <div class="cs-product_info cs-border_color">
           <span class="cs-product_badge cs-white text-uppercase cs-medium">50% OFF</span>
           <h2 class="cs-product_title text-uppercase cs-semi_bold">Blue watch</h2>
@@ -639,7 +641,7 @@
         </div>
       </div>
       <div class="cs-product cs-style3 text-center">
-        <div class="cs-product_bg cs-bg" data-src="../assets/img/e-commerce/feature_product3.png"></div>
+        <div class="cs-product_bg cs-bg" data-src="../{% static 'img/e-commerce/feature_product3.png"></div>' %}
         <div class="cs-product_info cs-border_color">
           <h2 class="cs-product_title text-uppercase cs-semi_bold">Modern sneakers</h2>
           <div class="cs-product_subtitle cs-medium cs-accent_color">Get discount of 25%</div>
@@ -649,7 +651,7 @@
         </div>
       </div>
       <div class="cs-product cs-style2 cs-type1">
-        <div class="cs-product_bg cs-bg" data-src="../assets/img/e-commerce/feature_product2.png"></div>
+        <div class="cs-product_bg cs-bg" data-src="../{% static 'img/e-commerce/feature_product2.png"></div>' %}
         <div class="cs-product_info cs-border_color">
           <span class="cs-product_badge cs-white text-uppercase cs-medium">50% OFF</span>
           <h2 class="cs-product_title text-uppercase cs-semi_bold cs-white">Red Headset</h2>
@@ -681,7 +683,7 @@
             <span class="cs-product_badge cs-accent_bg cs-white text-uppercase cs-medium">Sale</span>
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product4.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product4.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -707,7 +709,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product5.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product5.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -733,7 +735,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product6.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product6.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -759,7 +761,7 @@
           <div class="cs-product cs-style1 cs-white_bg">
             <div class="cs-product_thumb">
               <a href="product-details.html" class="cs-product_img cs-center"><img
-                  src="../assets/img/e-commerce/product7.png" alt=""></a>
+                  src="../{% static 'img/e-commerce/product7.png" alt=""></a>' %}
               <div class="cs-product_toolbox cs-white_bg">
                 <div class="cs-product_toolbox_in cs-accent_15_bg_2">
                   <a href="#"><i class="far fa-heart"></i></a>
@@ -810,11 +812,11 @@
         <div class="col-lg-4">
           <div class="cs-post cs-style2">
             <a href="blog-details.html" class="cs-post_thumb">
-              <div class="cs-post_thumb_in cs-bg" data-src="../assets/img/online-education/post1.jpg"></div>
+              <div class="cs-post_thumb_in cs-bg" data-src="../{% static 'img/online-education/post1.jpg"></div>' %}
             </a>
             <div class="cs-post_label">
               <a href="#" class="cs-avatar">
-                <img src="../assets/img/personal-portfolio/avatar1.png" alt="#" class="cs-avatar_img">
+                <img src="../{% static 'img/personal-portfolio/avatar1.png" alt="#" class="cs-avatar_img">' %}
                 <div class="cs-avatar_name">Candace Harris</div>
               </a>
               <div class="cs-post_date">03 Jan, 2022</div>
@@ -826,11 +828,11 @@
         <div class="col-lg-4">
           <div class="cs-post cs-style2">
             <a href="blog-details.html" class="cs-post_thumb">
-              <div class="cs-post_thumb_in cs-bg" data-src="../assets/img/online-education/post2.jpg"></div>
+              <div class="cs-post_thumb_in cs-bg" data-src="../{% static 'img/online-education/post2.jpg"></div>' %}
             </a>
             <div class="cs-post_label">
               <a href="#" class="cs-avatar">
-                <img src="../assets/img/personal-portfolio/avatar2.png" alt="#" class="cs-avatar_img">
+                <img src="../{% static 'img/personal-portfolio/avatar2.png" alt="#" class="cs-avatar_img">' %}
                 <div class="cs-avatar_name">Pauline Moore</div>
               </a>
               <div class="cs-post_date">02 Jan, 2022</div>
@@ -842,11 +844,11 @@
         <div class="col-lg-4">
           <div class="cs-post cs-style2">
             <a href="blog-details.html" class="cs-post_thumb">
-              <div class="cs-post_thumb_in cs-bg" data-src="../assets/img/online-education/post3.jpg">></div>
+              <div class="cs-post_thumb_in cs-bg" data-src="../{% static 'img/online-education/post3.jpg">></div>' %}
             </a>
             <div class="cs-post_label">
               <a href="#" class="cs-avatar">
-                <img src="../assets/img/personal-portfolio/avatar3.png" alt="#" class="cs-avatar_img">
+                <img src="../{% static 'img/personal-portfolio/avatar3.png" alt="#" class="cs-avatar_img">' %}
                 <div class="cs-avatar_name">Jonathon Doe</div>
               </a>
               <div class="cs-post_date">01 Jan, 2022</div>
@@ -867,7 +869,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="cs-cta cs-style1 cs-type2 cs-accent_bg_2 cs-bg" data-src="../assets/img/e-commerce/cta_img.png">
+          <div class="cs-cta cs-style1 cs-type2 cs-accent_bg_2 cs-bg" data-src="../{% static 'img/e-commerce/cta_img.png">' %}
             <h2 class="cs-cta_title cs-bold cs-white">Sign Up & <br>Get 10% Off</h2>
             <div class="cs-cta_btn">
               <a href="shop-left-sidebar.html"
@@ -969,13 +971,13 @@
   <!-- End Video Popup -->
 
   <!-- Script -->
-  <script src="../assets/js/plugins/jquery-3.6.0.min.js"></script>
-  <script src="../assets/js/plugins/isotope.pkg.min.js"></script>
-  <script src="../assets/js/plugins/jquery.slick.min.js"></script>
-  <script src="../assets/js/plugins/lightgallery.min.js"></script>
-  <script src="../assets/js/plugins/jquery.counter.min.js"></script>
-  <script src="../assets/js/plugins/wow.min.js"></script>
-  <script src="../assets/js/main.js"></script>
+  <script src="../{% static 'js/plugins/jquery-3.6.0.min.js"></script>' %}
+  <script src="../{% static 'js/plugins/isotope.pkg.min.js"></script>' %}
+  <script src="../{% static 'js/plugins/jquery.slick.min.js"></script>' %}
+  <script src="../{% static 'js/plugins/lightgallery.min.js"></script>' %}
+  <script src="../{% static 'js/plugins/jquery.counter.min.js"></script>' %}
+  <script src="../{% static 'js/plugins/wow.min.js"></script>' %}
+  <script src="../{% static 'js/main.js"></script>' %}
 </body>
 
 </html>
